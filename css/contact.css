@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding: 0px;
+}
+/* Header part Start*/
+header {
+    width: 100%;
+    float: left;
+    padding: 0px 0px 20px;
+    border-bottom: 7px solid #e4e4e4;
+    /* border-bottom-color: green; */
+}
+
+.logo-one {
+    margin-top: 10%;
+    margin-left: 6%;
+
+
+}
+.logo-one img {
+    width: 65%;
+}
+
+.link-one ul{
+	list-style: none;
+
+}
+.link-one {
+    width: 100%;
+    float: left;
+    margin: 13% 0% 0%;
+    font-size: 130%;
+}
+.link-one ul li {
+    display: inline-block;
+    color: #c5d2d9;
+    
+}
+ 
+.link-one ul li a{
+	text-decoration: none;
+	color: #c5d2d9;
+	padding: 0px 35px;
+	
+}
+
+.link-one ul li a:hover{
+	text-decoration:underline;
+	color: red;
+	
+}
+
+
+/* Header part end*/
+
+/* Section one start */
+.sec-one{
+    width: 100%;
+    float: left;
+    background: #ef4035;
+}
+
+.sec-one h3 {
+    margin: 60px 0px 45px;
+    font-size: 37px;
+    color: #fff;
+}
+.sec-one p {
+    color: #fff;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 35px;
+}
+
+.main-car {
+    height: 135px;
+}
+.single-pic{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.long-triangle {
+    /* right: 250px; */
+    position: absolute;
+    top: 170px;
+    height: 160px;
+}
+
+
+/* Section one end */
+
+
+
+
+/*Section two red part end*/
+.sec-two{
+   width: 100%;
+   float: left;
+   background: #f35348;
+
+}
+
+.form .p-cntr {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.form .input-cntr {
+    background: #ff6258;
+    border: none;
+    width: 100%;
+    padding: 12px 10px;
+}
+
+.B{
+    width: 100%;
+    float: left;
+    font-family: 'Satisfy', cursive;
+}
+.B button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    margin-top: 115px;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 0px 6px;
+    transition: 0.8s ease;
+}
+
+.B button:hover {
+    background: skyblue;
+    color:red;
+    box-shadow: 3px 3px 3px gray;
+    transform: scale(1.1);
+}
+
+/*Footer Part Start*/
+footer{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #ef4035;
+    padding: 26px 0px;
+}
+footer p{
+    font-size: 18px;
+    color: #fff;
+}
+
+/*Footer Part End*/
+
+
+
+
+
+
+/* Media Query */
+@media (min-width: 320px) and (max-width: 500px){
+
+
+/*Heading Start*/
+
+.logo-one{
+    margin-top: 20px;
+}
+.logo-one img {
+    margin-left: 57px;
+}
+
+.link-one {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+}
+.link-one ul li a {
+  
+    color: grey;
+    padding: 0px 0px;
+}
+/*Heading End*/
+
+
+
+
+/*Contact Part Start*/
+.sec-one h3 {
+    margin-top: 35px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.main-car {
+    height: 56px;
+}
+
+.long-triangle {
+    top: -260px;
+    left: 305px;
+    height: 85px;
+}
+.sec-one p {
+    font-size: 14px;
+    
+}
+
+.form .p-cntr {
+    margin-top: 10px;
+    font-size: 12px;
+}
+.form .input-cntr {
+    width: 100%;
+    padding: 5px 8px; 
+}
+
+.B button {
+    font-size: 25px;
+    display: block;
+    margin: 25px auto;
+}
+/*Contct Part End*/
+
+footer p {
+    font-size: 11px;
+}
+footer {
+    padding: 14px 0px;
+}

@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Header part Start*/
+header {
+    width: 100%;
+    float: left;
+    padding: 0px 0px 20px;
+    border-bottom: 7px solid #e4e4e4;
+    /* border-bottom-color: green; */
+}
+
+.logo-one {
+    margin-top: 10%;
+    margin-left: 6%;
+
+
+}
+.logo-one img {
+    width: 65%;
+}
+
+.link-one ul{
+	list-style: none;
+
+}
+.link-one {
+    width: 100%;
+    float: left;
+    margin: 13% 0% 0%;
+    font-size: 130%;
+}
+.link-one ul li {
+    display: inline-block;
+    color: #c5d2d9;
+    
+}
+ 
+.link-one ul li a{
+	text-decoration: none;
+	color: #c5d2d9;
+	padding: 0px 35px;
+	
+}
+
+.link-one ul li a:hover{
+	text-decoration:underline;
+	color: darkred;
+	
+}
+
+
+/* Header part end*/
+
+
+
+
+
+/* Section one start */
+.sec-one{
+	width: 100%;
+	float: left;
+	background:#fff;
+}
+
+
+.sec-one h3 {
+    margin: 60px 0px 70px;
+    font-size: 45px;
+}
+
+.sec-one p {
+    color: #c3c3c3;
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.double-pic{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+.long-triangle {
+    right: 250px;
+    position: absolute;
+    top: 91px;
+    height: 225px;
+}
+.three-cr {
+    position: absolute;
+    width: 335px;
+    top: 130px;
+    left: 145px;
+}
+
+.A p{
+	color: #c3c3c3;
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+
+
+/* Section one end */
+
+/*Foorter Part Start */
+footer{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background: #ef4035;
+	padding: 26px 0px;
+}
+footer p{
+	font-size: 18px;
+	color: #fff;
+}
+
+/*Foorter Part Start */
+
+/* Media Query */
+@media (min-width: 320px) and (max-width: 500px){
+
+
+/*Heading Start*/
+
+.logo-one{
+	margin-top: 20px;
+}
+.logo-one img {
+    margin-left: 57px;
+}
+
+.link-one {
+	margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+}
+.link-one ul li a {
+  
+    color: grey;
+    padding: 0px 0px;
+}
+/*Heading End*/
+
+
+
+
+/*About Part Start*/
+.long-triangle {
+    right: 214px;
+    position: absolute;
+    top: 276px;
+    height: 183px;
+}
+
+.sec-one h3 {
+    margin: 60px 0px 20px;
+    font-size: 30px;
+}
+
+.sec-one p {
+    font-size: 14px;
+}
+
+.long-triangle {
+    top: 220px;
+    right: 40px;
+    height: 130px;
+}
+
+.three-cr {
+    width: 140px;
+    top: 250px;
+    left: 60px;
+    
+}
+
+/*About Part End*/
+
+footer p {
+    font-size: 11px;
+}
+footer {
+    padding: 14px 0px;
+}

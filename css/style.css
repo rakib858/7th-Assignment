@@ -1,0 +1,345 @@
+*{
+	margin:0;
+	padding:0;
+}
+/* Header part Start*/
+header{
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/homepage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+
+.logo-one {
+    margin-top: 12%;
+    margin-left: 6%;
+
+
+}
+.logo-one img {
+    width: 65%;
+}
+
+.link-one ul{
+	list-style: none;
+
+}
+.link-one {
+    width: 100%;
+    float: left;
+    margin-top: 15%;
+    font-size: 130%;
+}
+.link-one ul li {
+    display: inline-block;
+    color: #fff;
+    
+}
+ 
+.link-one ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 35px;
+	
+}
+
+.link-one ul li a:hover{
+	text-decoration:underline;
+	color: red;
+	
+}
+
+.h h3 {
+    font-size: 40px;
+    color: #fff;
+    background: #343432;
+    margin-top: 110px;
+    padding: 8px 25px;
+    text-align: center;
+}
+.h p {
+    font-size: 17px;
+    color: #fff;
+    margin-top: 16px;
+}
+.h span {
+    width: 10%;
+    border-bottom: 1px solid #fff;
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+.h button {
+    padding: 7px 55px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #f6f6f6;
+    margin-bottom: 88px;
+	transition: 0.8s ease ;
+}
+
+
+
+.h button:hover {
+    color: yellow;
+    box-shadow: 2px 3px 4px maroon;
+    transform: scale(1.1);
+}
+
+/* Header part end*/
+
+
+/* Section one start white part*/
+.sec-one{
+	width: 100%;
+	float: left;
+	background:#f6f6f6;
+}
+
+
+.sec-one h3 {
+    margin-top: 120px;
+    font-size: 40px;
+    color: #cacaca;
+    font-weight: bold;
+}
+
+.sec-one span {
+    width: 60px;
+    border-bottom: 3px solid #cacaca;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.sec-one p {
+    color: #cacaca;
+    font-size: 17px;
+    margin-bottom: 80px;
+}
+
+.double-pic{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+.long-triangle{
+    right: -26px;
+    position: absolute;
+    top: 141px;
+    height: 380px;
+}
+.three-cr {
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    left: 133px;
+}
+.img-fluid {
+    max-width: 140%;
+    height: auto;
+}
+
+/* Section one end white part*/
+
+
+/* Section two start Black part*/
+
+
+.sec-two{
+	width: 100%;
+	float: left;
+	background:#28282e;
+}
+
+
+
+.sec-two h3 {
+    margin-top: 100px;
+    font-size: 49px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sec-two span {
+    width: 60px;
+    border-bottom: 1px solid #cacaca;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.sec-two p {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+.sec-two button {
+    color: #a4a4a5;
+    padding: 7px 14px;
+    background: transparent;
+    border: 2px solid #fff;
+    margin-bottom: 100px;
+	transition:0.8s ease;
+}
+
+.sec-two button:hover {
+    color: yellow;
+    box-shadow: 1px 2px 4px red;
+    transform: scale(1.1);
+}
+
+.single-pic{
+	position: relative;
+	width: 100%;
+	float: left;
+	
+}
+.single-pic img {
+    position: absolute;
+    width: 510px;
+    top: 230px;
+    right: 140px;
+}
+/* Section two end Black part*/
+
+
+
+/*Footer Part6 Start*/
+footer{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background: #ef4035;
+	padding: 26px 0px;
+}
+footer p{
+	font-size: 18px;
+	color: #fff;
+}
+
+/*Footer Part6 Start*/
+
+
+
+/* Media Query */
+@media (min-width: 320px) and (max-width: 500px){
+
+/*Header Start*/
+.logo-one img{
+       margin-left: 60px;
+}
+
+
+.link-one {
+	margin-top: 20px;
+    font-size: 20px;
+    display:block;
+    text-align: center;
+}
+.link-one ul li a{
+	padding: 0px 0px;
+}
+/* LOgo End*/
+.h h3 {
+    font-size: 17px;
+    margin-top: 45px;
+    width: 212px;
+}
+
+.h p {
+    font-size: 14px;
+    text-align: justify;
+    
+}
+.h span {
+    width: 52px;
+    margin-top: 35px;
+    margin-left: 70px;
+}
+
+.h button {
+    padding: -1px 55px;
+    padding: 5px 10px;
+    margin-left: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+}
+
+/*Header section end*/
+
+
+/*White section start*/
+.sec-one h3 {
+    margin-top: 60px;
+    font-size: 18px;
+    color: #cacaca;
+    font-weight: bold;
+}
+
+.sec-one p {
+    color: #cacaca;
+    font-size: 9px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.long-triangle {
+    position: absolute;
+    top: 135px;
+    height: 140px;
+    right: 0px;
+}
+
+.three-cr {
+    position: absolute;
+    width: 150px;
+    top: 145px;
+    left: 33px;
+}
+/*White section End*/
+
+
+/*Black section start*/
+.sec-two h3 {
+    margin-top: 60px;
+    font-size: 25px;
+    text-align: center;
+}
+.sec-two span {
+    
+    margin-left: 178px;
+}
+
+
+
+.sec-two p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 145px;
+}
+
+.sec-two button {
+    padding: 5px 8px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+footer p {
+    font-size: 12px;
+   
+}
+
+.single-pic img {
+    position: absolute;
+    width: 300px;
+    left: 60px;
+    top: -330px;
+}
+/*Black section end*/
+
+footer {
+    padding: 15px 0px;
+}
